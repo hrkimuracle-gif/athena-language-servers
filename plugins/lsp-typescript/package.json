@@ -1,0 +1,9 @@
+{
+	"name": "athena-lsp-typescript",
+	"private": true,
+	"description": "typescript-language-server + typescript bundled for the Athena Code marketplace plugin",
+	"dependencies": {
+		"typescript-language-server": "4.3.4",
+		"typescript": "5.7.3"
+	}
+}

@@ -1,0 +1,2 @@
+# node_modules are committed on purpose: each plugin ships its server binary.
+.DS_Store

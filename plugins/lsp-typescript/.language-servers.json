@@ -1,0 +1,18 @@
+{
+	"schemaVersion": 1,
+	"servers": [
+		{
+			"serverId": "typescript-language-server",
+			"platforms": {
+				"*": {
+					"command": "./node_modules/typescript-language-server/lib/cli.mjs",
+					"args": ["--stdio"]
+				},
+				"win32": {
+					"command": "./bin/typescript-language-server.cmd",
+					"args": ["--stdio"]
+				}
+			}
+		}
+	]
+}

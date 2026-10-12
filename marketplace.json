@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"name": "athena-language-servers",
+	"interface": { "displayName": "Athena 언어 서버" },
+	"plugins": [
+		{
+			"name": "lsp-typescript",
+			"source": { "source": "local", "path": "./plugins/lsp-typescript" },
+			"category": "언어 서버"
+		}
+	]
+}

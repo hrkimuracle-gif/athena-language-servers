@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"name": "lsp-typescript",
+	"version": "1.0.0",
+	"description": "TypeScript/JavaScript 언어 서버(typescript-language-server 4.3.4 + typescript 5.7.3). 설치하면 LSP 심볼 검색·참조·호출 계층 도구가 TypeScript 와 JavaScript 코드에서 동작합니다. 실행에는 PATH 의 node 가 필요합니다.",
+	"keywords": ["lsp", "language-server", "typescript", "javascript"],
+	"languageServers": "./.language-servers.json",
+	"interface": {
+		"displayName": "TypeScript 언어 서버",
+		"shortDescription": "TypeScript/JavaScript 심볼 검색·참조·호출 계층용 LSP 서버",
+		"developerName": "Uracle",
+		"category": "언어 서버"
+	}
+}
