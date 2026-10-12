@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"name": "lsp-go",
+	"version": "1.0.0",
+	"description": "Go 언어 서버(gopls v0.23.0). 설치하면 LSP 심볼 검색·참조·호출 계층 도구가 Go 코드에서 동작합니다. 플랫폼별 정적 바이너리를 동봉하므로 별도 런타임이 필요 없습니다. 프로젝트 의존성 해석에는 PATH 의 go 가 쓰입니다.",
+	"keywords": ["lsp", "language-server", "go", "gopls"],
+	"languageServers": "./.language-servers.json",
+	"interface": {
+		"displayName": "Go 언어 서버",
+		"shortDescription": "Go 심볼 검색·참조·호출 계층용 LSP 서버 (gopls)",
+		"developerName": "Uracle",
+		"category": "언어 서버"
+	}
+}

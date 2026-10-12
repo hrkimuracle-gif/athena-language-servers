@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"name": "lsp-python",
+	"version": "1.0.0",
+	"description": "Python 언어 서버(pyright 1.1.405, pyright-langserver). 설치하면 LSP 심볼 검색·참조·호출 계층 도구가 Python 코드에서 동작합니다. Node 프로그램이라 Python 런타임 없이 정적 분석하며, 실행에는 PATH 의 node 가 필요합니다.",
+	"keywords": ["lsp", "language-server", "python", "pyright"],
+	"languageServers": "./.language-servers.json",
+	"interface": {
+		"displayName": "Python 언어 서버",
+		"shortDescription": "Python 심볼 검색·참조·호출 계층용 LSP 서버 (pyright)",
+		"developerName": "Uracle",
+		"category": "언어 서버"
+	}
+}

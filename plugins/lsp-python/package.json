@@ -1,0 +1,8 @@
+{
+	"name": "athena-lsp-python",
+	"private": true,
+	"description": "pyright (pyright-langserver) bundled for the Athena Code marketplace plugin",
+	"dependencies": {
+		"pyright": "1.1.405"
+	}
+}

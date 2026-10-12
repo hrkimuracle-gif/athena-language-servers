@@ -1,11 +1,32 @@
 {
 	"schemaVersion": 1,
 	"name": "athena-language-servers",
-	"interface": { "displayName": "Athena 언어 서버" },
+	"interface": {
+		"displayName": "Athena 언어 서버"
+	},
 	"plugins": [
 		{
 			"name": "lsp-typescript",
-			"source": { "source": "local", "path": "./plugins/lsp-typescript" },
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-typescript"
+			},
+			"category": "언어 서버"
+		},
+		{
+			"name": "lsp-python",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-python"
+			},
+			"category": "언어 서버"
+		},
+		{
+			"name": "lsp-go",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-go"
+			},
 			"category": "언어 서버"
 		}
 	]

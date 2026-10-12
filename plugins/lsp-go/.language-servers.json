@@ -1,0 +1,16 @@
+{
+	"schemaVersion": 1,
+	"servers": [
+		{
+			"serverId": "gopls",
+			"platforms": {
+				"darwin-arm64": { "command": "./platforms/darwin-arm64/gopls" },
+				"darwin-x64": { "command": "./platforms/darwin-x64/gopls" },
+				"linux-arm64": { "command": "./platforms/linux-arm64/gopls" },
+				"linux-x64": { "command": "./platforms/linux-x64/gopls" },
+				"win32-arm64": { "command": "./platforms/win32-arm64/gopls.exe" },
+				"win32-x64": { "command": "./platforms/win32-x64/gopls.exe" }
+			}
+		}
+	]
+}

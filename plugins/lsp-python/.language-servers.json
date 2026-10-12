@@ -1,0 +1,12 @@
+{
+	"schemaVersion": 1,
+	"servers": [
+		{
+			"serverId": "pyright",
+			"platforms": {
+				"*": { "command": "./node_modules/pyright/langserver.index.js", "args": ["--stdio"] },
+				"win32": { "command": "./bin/pyright-langserver.cmd", "args": ["--stdio"] }
+			}
+		}
+	]
+}
