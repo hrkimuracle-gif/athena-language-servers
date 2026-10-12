@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"name": "lsp-java-win32-x64",
+	"version": "1.0.0",
+	"description": "Java 언어 서버(Eclipse JDT LS, vscode-java 1.54.0 동봉본) — Windows x64 전용. JRE 21.0.10 을 함께 동봉하므로 별도 Java 설치 없이 동작합니다. 설치하면 LSP 심볼 검색·참조·호출 계층 도구가 Java 코드에서 동작합니다. 첫 기동 시 워크스페이스 임포트에 수십 초가 걸릴 수 있습니다.",
+	"keywords": ["lsp", "language-server", "java", "jdtls", "win32-x64"],
+	"languageServers": "./.language-servers.json",
+	"interface": {
+		"displayName": "Java 언어 서버 (Windows x64)",
+		"shortDescription": "Java 심볼 검색·참조·호출 계층용 LSP 서버 (JDT LS + JRE, win32-x64)",
+		"developerName": "Uracle",
+		"category": "언어 서버"
+	}
+}

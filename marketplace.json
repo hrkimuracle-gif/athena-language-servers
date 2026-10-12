@@ -28,6 +28,46 @@
 				"path": "./plugins/lsp-go"
 			},
 			"category": "언어 서버"
+		},
+		{
+			"name": "lsp-java-darwin-arm64",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-java-darwin-arm64"
+			},
+			"category": "언어 서버"
+		},
+		{
+			"name": "lsp-java-darwin-x64",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-java-darwin-x64"
+			},
+			"category": "언어 서버"
+		},
+		{
+			"name": "lsp-java-linux-arm64",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-java-linux-arm64"
+			},
+			"category": "언어 서버"
+		},
+		{
+			"name": "lsp-java-linux-x64",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-java-linux-x64"
+			},
+			"category": "언어 서버"
+		},
+		{
+			"name": "lsp-java-win32-x64",
+			"source": {
+				"source": "local",
+				"path": "./plugins/lsp-java-win32-x64"
+			},
+			"category": "언어 서버"
 		}
 	]
 }

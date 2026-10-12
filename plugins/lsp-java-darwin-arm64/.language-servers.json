@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"servers": [
+		{
+			"serverId": "jdtls",
+			"platforms": {
+				"darwin-arm64": {
+					"command": "./extension/jre/21.0.10-macosx-aarch64/bin/java",
+					"args": [
+						"-jar",
+						"${packageRoot}/extension/server/plugins/org.eclipse.equinox.launcher_1.7.100.v20251111-0406.jar",
+						"-configuration",
+						"${packageRoot}/extension/server/config_mac_arm"
+					]
+				}
+			}
+		}
+	]
+}
